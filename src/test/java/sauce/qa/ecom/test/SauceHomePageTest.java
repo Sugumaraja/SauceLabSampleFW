@@ -1,4 +1,4 @@
-package sauce.qa.ecom.basetest;
+package sauce.qa.ecom.test;
 
 public class SauceHomePageTest {
 
