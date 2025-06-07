@@ -32,6 +32,9 @@ public class SauceHomePage {
 		ele.doClick(burgerMenu);
 		ele.doClickWithWait(logout,AppConstants.SHORT_WAIT);
 	}
+	public void dochec() {
+		
+	}
 	
 
 }
