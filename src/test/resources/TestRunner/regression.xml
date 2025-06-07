@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Open Cart" thread-count="2" verbose="2" parallel="tests">
+<listeners><listener class-name="sauce.qa.ecom.listener.AllureListener"></listener>
+</listeners>
+	<test name="SauceTest">
+	<parameter name="browser" value="null"></parameter>
+		<classes>
+			<class name="sauce.qa.ecom.test.SauceLoginPageTest" />
+		</classes>
+	</test> <!-- Test -->
+		<test name="SauceTest2">
+		<parameter name="browser" value="null"></parameter>
+		<classes>
+			<class name="sauce.qa.ecom.test.SauceLoginPageTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
