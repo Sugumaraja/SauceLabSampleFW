@@ -12,8 +12,6 @@ public class SauceHomePage {
 	private WebDriver driver;
 	private EleUtil ele;
 	private JsUtil js;
-	ExcelUtil eu;
-	
 	private By title=By.className("title");
 	private By burgerMenu=By.id("react-burger-menu-btn");
 	private By logout=By.id("logout_sidebar_link");

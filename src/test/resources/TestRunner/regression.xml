@@ -5,6 +5,7 @@
 </listeners>
 	<test name="SauceTest">
 	<parameter name="browser" value="null"></parameter>
+	<parameter name="env" value="null"></parameter>
 		<classes>
 			<class name="sauce.qa.ecom.test.SauceLoginPageTest" />
 		</classes>
